@@ -8,7 +8,7 @@ spec:
   ingressClassName: traefik
 
   rules:
-    - host: playgroung.locsal
+    - host: playgroung.localhost
       http:
         paths:
           - path: /
